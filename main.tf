@@ -17,6 +17,7 @@ module "vpc" {
 
   tags = {
     Terraform = "true"
-    Environment = "dev"
+    Environment = "qa"
+    Compliance = "true"
   }
 }
