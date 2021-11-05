@@ -23,7 +23,7 @@ agent any
         }
       }
     }
-
+ 
     stage('TF Apply') {
       steps {
           sh 'terraform apply myplan.out'
